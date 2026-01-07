@@ -1,0 +1,24 @@
+Mulai
+
+Deklarasi array suara[3] dan isi dengan 0
+Deklarasi variabel pilihan
+
+Tampilkan judul "Sistem Voting Sederhana"
+Tampilkan daftar kandidat:
+    1. Kandidat A
+    2. Kandidat B
+    3. Kandidat C
+    0. Selesai Voting
+
+Ulangi
+    Input pilihan
+    Jika pilihan >= 1 dan pilihan <= 3
+        suara[pilihan - 1] = suara[pilihan - 1] + 1
+Sampai pilihan == 0
+
+Tampilkan hasil voting:\
+    Kandidat A = suara[0]
+    Kandidat B = suara[1]
+    Kandidat C = suara[2]
+
+Selesai
