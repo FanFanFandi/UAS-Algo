@@ -1,0 +1,32 @@
+Mulai
+    Tampilkan "Masukkan jumlah barang"
+    Input jumlahBarang
+
+    Untuk i dari 1 sampai jumlahBarang
+        Tampilkan "Barang ke-i"
+        Input namaBarang
+        Input hargaBarang (dalam teks)
+        Ubah hargaBarang menjadi angka dengan menghilangkan titik
+        Simpan nama dan harga ke dalam array
+    Selesai Untuk
+
+    Ulangi
+        Tampilkan menu kasir
+        Input pilihan
+
+        Jika pilihan = 1 maka
+            Tampilkan daftar semua barang dan harganya
+        Jika pilihan = 2 maka
+            total ← 0
+            Untuk setiap barang
+                Tampilkan nama barang
+                Input jumlah beli
+                Hitung subtotal = harga × jumlah beli
+                Tambahkan subtotal ke total
+            Selesai Untuk
+            Tampilkan struk belanja dan total bayar
+        EndIf
+    Sampai pilihan = 3
+
+    Tampilkan "Program selesai"
+Selesai
